@@ -19,7 +19,6 @@ define Package/Hello/description
 endef
 
 define Build/Prepare
-	mkdir -p $(PKG_BUILD_DIR)
 	$(CP) ./src/* $(PKG_BUILD_DIR)/
 endef
 
