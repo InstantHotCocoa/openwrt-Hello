@@ -19,7 +19,7 @@ define Package/Hello/description
 endef
 
 define Build/Prepare
-	mkdir $(PKG_BUILD_DIR)
+	mkdir -p $(PKG_BUILD_DIR)
 	$(CP) ./src/* $(PKG_BUILD_DIR)/
 endef
 
@@ -29,4 +29,3 @@ define Package/Hello/install
 endef
 
 $(eval $(call BuildPackage,Hello))
-
