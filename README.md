@@ -17,4 +17,6 @@ OpenWrt 是适合于嵌入式设备（通常是智能路由器）的一个 Linux
    # 开始编译
    make V=s
    ```
-如果一切正常，你会在SDK目录中的 `bin/ramips/packages/base/` 目录下发现生成的 `Hello_0.0.1-1_ramips_24kec.ipk`
+如果一切正常，你会在SDK目录中的 `bin/ramips/packages/base/` 目录下发现生成的 `Hello_0.0.1-1_ramips_24kec.ipk`  
+  
+至于需要什么依赖不要问我我忘了（。这个东西本身不需要任何依赖，但SDK需要。你们自己看它中途提示缺少什么自己装吧（
