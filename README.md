@@ -1,4 +1,4 @@
-# Hello - The best geeting to you
+# Hello - The best greeting to you
 一个运行在 OpenWrt 上的软件包（算是照着网上现成的教程做了一遍）。
 ## 使用方法
 OpenWrt 是适合于嵌入式设备（通常是智能路由器）的一个 Linux 发行版。因此软件包需要通过 `ssh` 以命令行形式在远程设备上运行。  
